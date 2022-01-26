@@ -219,11 +219,11 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    weight: 270px;
 }
 
 .features-item:not(:last-child) {
     margin-right: 30px;
-    weight: 270px;
 }
 
 .features-list {
@@ -464,7 +464,6 @@ img {
     margin-right: 30px;
     width: 370px;
     background: var(--primary-title-color);
-
 }
 
 
