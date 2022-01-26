@@ -203,7 +203,14 @@ img {
 
 .features {
     background: var(--primary-title-color);
-    visibility: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 .features-item {
@@ -381,10 +388,6 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
     margin: 0;
-}
-
-.portfolio-title {
-    visibility: hidden;
 }
 
 .filter-list {
